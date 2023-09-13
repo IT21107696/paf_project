@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <h2>Login with Google</h2>
+    <form th:action="@{/oauth2/authorization/google}" method="post">
+        <input type="submit" value="Login with Google"/>
+    </form>
+</body>
+</html>
